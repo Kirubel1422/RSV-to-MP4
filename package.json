@@ -1,0 +1,29 @@
+{
+  "name": "rsv_converter",
+  "version": "1.0.0",
+  "description": "rsv to mp4 converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirubel1422/RSV-to-MP4.git"
+  },
+  "keywords": [
+    "rsv",
+    "mp4"
+  ],
+  "author": "kirubel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirubel1422/RSV-to-MP4/issues"
+  },
+  "homepage": "https://github.com/Kirubel1422/RSV-to-MP4#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}
